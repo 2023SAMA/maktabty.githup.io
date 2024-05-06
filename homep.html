@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="jquery.min.js"></script>
+    <title>Home page</title>
+    <script>
+        $(document).ready(function(){
+            $('#lightmode').click(function(){
+                $("body,header").css({
+                                "background":"white"
+                });
+            })
+        });
+        $(document).ready(function(){
+            $('#darkmode').click(function(){
+                $("body,header").css({
+                                "background":"black"    
+                });
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="homep.html" class="logo">Maktabty</a>
+        <nav class="mode">
+            <button id="lightmode" title="light mode">🌞</button>
+            <button id="darkmode" title="dark mode">🌛</button>
+        </nav>
+     <ul>
+        <li><a href="homep.html">Homepage</a></li>
+        <li><a href="#Sections">Section</a>
+           <ul>
+            <li><a href="ali1.html">سيره ذاتيه</a></li>
+            <li><a href="shaban1.html">الاقتصاد والاداره</a></li>
+            <li><a href="home.html">علم نفس</a></li>
+            <li><a href="raghad.htm">قصص </a></li>
+            <li><a href="Ahmed1.html">تاريخ</a></li>
+            <li><a href="july1.html">روايات</a></li>
+            <li><a href="Asmaa.html">مسرحيات</a></li>
+
+
+
+           </ul>
+        </li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="login.html">login</a></li>
+
+
+
+
+
+     </ul>   
+    </header>
+    <section class="container">
+
+        <div class="login-user-icon">
+
+            <img src="c:\Users\hp\OneDrive\الصور\صورة واتساب بتاريخ 2024-04-25 في 11.42.16_e60cf4d2.jpg"
+                style="height: 95px; width: 185px; border-radius: 55%; position: relative; top: -60px;  left: -90px; ">
+        </div>
+        <div class="search-box">
+            <input type="text" class="input" placeholder=" ...ابحث" name="search">
+            <button type="submit">search</button>
+        </div>
+    </section>
+
+    <section class="Sections" id="Sections">
+        <h2 class="title">Sections</h2>
+    
+        <div class="content">
+            <div class="Section-card">
+                <div class="Section-image">
+                    <a href="ali1.html"><img src="c:\Users\hp\OneDrive\الصور\photo\صورة واتساب بتاريخ 2024-05-01 في 02.34.25_7479dd78.jpg"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <a href="shaban1.html"><img src="c:\Users\hp\OneDrive\الصور\photo\صورة واتساب بتاريخ 2024-05-01 في 02.34.25_1613a164.jpg"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                    <a href="home.html"><img src="c:\Users\hp\OneDrive\الصور\photo\صورة واتساب بتاريخ 2024-05-01 في 02.34.25_22bbf905.jpg"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                  <a href="raghad.htm" > <img src="c:\Users\hp\OneDrive\الصور\photo\صورة واتساب بتاريخ 2024-05-01 في 02.34.24_0dc2a4ce.jpg"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                   <a href="Ahmed1.html" ><img src="c:\Users\hp\OneDrive\الصور\photo\صورة واتساب بتاريخ 2024-05-01 في 02.34.25_351409ce.jpg"></a>
+                </div>
+
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                  <a href="july1.html" > <img src="c:\Users\hp\OneDrive\الصور\photo\صورة واتساب بتاريخ 2024-05-01 في 02.34.25_70b0b724.jpg"></a>
+                </div>
+
+            </div>
+            <div class="Section-card">
+                <div class="Section-image">
+                  <a href="Asmaa.html" > <img src="c:\Users\hp\OneDrive\الصور\photo\صورة واتساب بتاريخ 2024-05-01 في 02.34.25_7e51df8d.jpg"></a>
+                </div>
+
+
+            </div>
+
+    </section>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #Famous-Books {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #Famous-Books td,
+        #Famous-Books th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #Famous-Books tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #Famous-Books tr:hover {
+            background-color: #ddd;
+        }
+
+        #Famous-Books th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #872323;
+            color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+    </style>
+    </head>
+
+    <body>
+<video width="420" height="320" controls>
+    <source src="c:\Users\hp\Videos\video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+</video> 
+<br>
+<h2>the joy of Books </h2> 
+   </br>
+<style>
+    #h3{
+        margin-bottom: 20%;
+    }
+</style>   
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <body>
+
+        <h1>the most famous books</h1>
+        <br>
+
+        <table id="Famous-Books">
+            <tr>
+                <th>section</th>
+                <th>the book</th>
+                <th>Author</th>
+            </tr>
+            <tr>
+                <td>السيرة الذاتية</td>
+                <td>فيزياء الحزن</td>
+                <td>جورجي غوسبودينوف</td>
+            </tr>
+            <tr>
+                <td>الإقتصاد والإدارة</td>
+                <td>الأب الغني والأب الفقير</td>
+                <td>روجيه جارودي</td>
+            </tr>
+            <tr>
+                <td>علم النفس</td>
+                <td>محاط بالحمقى</td>
+                <td> توماس إريكسون</td>
+            </tr>
+            <tr>
+                <td>قصص</td>
+                <td>رجل في القرية</td>
+                <td>محمد جابر النبهانالناشر </td>
+            </tr>
+            <tr>
+                <td>تاريخ</td>
+                <td>دروس التاريخ</td>
+                <td> ويل ديورانت</td>
+            </tr>
+            <tr>
+                <td>روايات</td>
+                <td>الخيميائي</td>
+                <td> باولو كويلو</td>
+            </tr>
+            <tr>
+                <td>مسرحيات</td>
+                <td>يوليوس قيصر</td>
+                <td>وليم شكسبير</td>
+            </tr>
+
+        </table>
+
+    <footer class="footer" id="Contact">
+        <nav>
+            <p class="footer-title">Created by <span>#Shaban #Ali #Sama #Raghad #Asmaa #Ahmed #Juliana</span></p>
+        </nav>
+        <P class="contact-email">Maktabty555@gmail.com</P>
+    </footer>
+</body>
+
+</html>
